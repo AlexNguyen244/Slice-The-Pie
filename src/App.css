@@ -1,0 +1,291 @@
+main {
+  text-align: center;
+  vertical-align: center;
+}
+
+div {
+  margin: 1px;
+}
+
+.mobileScreen {
+  display: flex;
+  background-color: #2e2e2e;
+  /*Set Size of Screen*/
+  max-width: 480px;
+
+  flex-flow: column wrap;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 { 
+  text-align: center; 
+}
+
+.appDescription{
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.entryBoxes {
+  margin: 10%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: start; 
+}
+
+.entryBoxTitle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+input:focus{
+  outline: none;
+}
+
+.percent{
+  margin-left: -10px;
+}
+
+.inputTotalBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.input-tag {
+  display: flex;
+  text-decoration: none;
+  background-color: transparent;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 2px solid #CCC;
+  width: 10%;
+  min-width: 5%;
+  margin-left: 3%;
+  color: white;
+}
+
+.info-circle {
+  background: white;
+  margin-left: 5px;
+  border-radius: 50%;
+  margin-right: 15px;
+  min-width: 13px;
+  min-height: 13px;
+  width: 13px;
+  height: 13px;
+  font-size: 10px;
+  text-align: center;
+  color: black;
+  
+}
+
+.input-bar-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  outline: none;
+}
+
+.colored-circle {
+  display: flex;
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+.progress-bar{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  width: 90%;
+}
+
+.circle{
+  display: flex;
+  height: 1.2em;
+  width: 2.2em;
+  background-color: #7f8187;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.line{
+  width: 100%;
+  margin-left: -2%;
+  margin-right: -2%;
+  justify-self: space-between;
+  border-bottom: 6px solid #7F8187;
+  align-self: center;
+  z-index: 0;
+}
+
+#active{
+  background-color: #71A8FF;
+}
+
+#active-line{
+  border-bottom: 6px solid #71A8FF;
+}
+
+.progress-bar-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-left: -0.5%; */
+  
+  width: 98%;
+}
+
+.labels{
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.pie-chart{
+  color: black;
+  font-size: 1.2em;
+}
+
+divider-line{
+  margin-top: 50px;
+  margin-left: -10px;
+  width: 25%;
+  height: 5%;
+  justify-self: space-between;
+  border-bottom: 6px solid #7F8187;
+  align-self: center;
+}
+
+.Revenues {
+  display: flex;
+  background-color: #2e2e2e;
+  /*Set Size of Screen*/
+  max-width: 480px;
+
+  /* border: 1px solid red; */
+
+  flex-flow: column wrap;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.Expenditures {
+  display: flex;
+  background-color: #2e2e2e;
+  /*Set Size of Screen*/
+  max-width: 480px;
+
+  /* border: 1px solid red; */
+
+  flex-flow: column wrap;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.next-button{
+  border-radius: 50px;
+  width: 170px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.next-button{
+  border-radius: 50px;
+  background-color: white;
+  margin-bottom: 60px;
+  width: 170px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.compare-button{
+  border-radius: 50px;
+  background-color: #71A8FF;
+  width: 170px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.previous-button{
+  border-radius: 50px;
+  background-color: #7F8187;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  width: 170px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.restart-button{
+  border-radius: 50px;
+  background-color: white;
+  margin-bottom: 60px;
+  width: 170px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Compare {
+  display: flex;
+  background-color: #2e2e2e;
+  /*Set Size of Screen*/
+  max-width: 480px;
+
+  /*border: 1px solid red;*/
+
+  flex-flow: column wrap;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h5 {
+  font-size: 15px;
+  margin-bottom: -30px;
+}
+
+.single-container {
+  display: flex;
+  flex-direction: column;
+}
+
+h6 {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.tooltip{
+  display: inline-block;
+}
+
+.input-name {
+  max-width: 72%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
